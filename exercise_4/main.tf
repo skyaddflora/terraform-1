@@ -12,7 +12,7 @@ terraform {
   }
 }
 
-resource "aws_s3_bucket" "flora-bucket-terraform-labt" {
+resource "aws_s3_bucket" "flora-bucket-terraform-lab" {
   bucket = "${var.s3_bucket_name}"
   acl = "private"
   region = "${var.s3_bucket_region}"
