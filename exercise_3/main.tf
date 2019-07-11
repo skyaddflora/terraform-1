@@ -7,7 +7,7 @@ provider "aws" {
 terraform {
    backend "s3" {
    bucket = "flora-bucket-terraform-lab"
-   key = "terraform.tfstate"
+#   key = "terraform.tfstate"
    region = "us-east-1"
   }
 }
